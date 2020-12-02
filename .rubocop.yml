@@ -1,0 +1,31 @@
+inherit_from: /Users/vladryklin/.config/rubocop/.rubocop.yml
+
+Metrics/ClassLength:
+  Max: 380
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Max: 35
+
+Layout/LineLength:
+  Max: 140
+
+Metrics/MethodLength:
+  Max: 40
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: false
+
+Style/ExplicitBlockArgument:
+  Enabled: false
